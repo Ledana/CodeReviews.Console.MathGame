@@ -11,6 +11,7 @@ namespace MathGame
             List<string> questionsWithAnswer = new();
             List<List<string>> previusGames = new();
             //random number generator
+            //adding a testcomment
             Random rand = new();
             
 
@@ -25,7 +26,7 @@ namespace MathGame
                 questionsWithAnswer = new();
 
 
-                Console.WriteLine("Do you want to play again?");
+                Console.WriteLine("Do you want to play again? or you are scred");
                 Console.WriteLine("Type 'yes' to play or 'no' to quit");
                 Console.WriteLine("Or type 'previus' if you want to see previous games result");
 
